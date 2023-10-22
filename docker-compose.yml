@@ -1,0 +1,8 @@
+version: "3"
+services: 
+  pyspark:
+    image: jupyter/all-spark-notebook
+    hostname: pyspark
+    container_name: pyspark
+    ports:
+    - 8888:8888  
